@@ -25,10 +25,9 @@ namespace TenistasUnitTest.ControllerTests
             int id = 1;
             var method = _tennisPlayersController.GetTennisPlayer(id);
             Assert.IsType<ActionResult<TennisPlayerModel>>(method);
-
         }
 
+
     }
-   
 
 }

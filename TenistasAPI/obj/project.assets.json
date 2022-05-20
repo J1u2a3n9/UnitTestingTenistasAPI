@@ -283,19 +283,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Juan Luis\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
       "projectName": "TenistasAPI",
-      "projectPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
-      "packagesPath": "C:\\Users\\Juan Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Juan Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -307,7 +307,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -319,7 +318,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -344,7 +342,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

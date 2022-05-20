@@ -4006,19 +4006,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Juan Luis\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasUnitTest\\TenistasUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasUnitTest\\TenistasUnitTest.csproj",
       "projectName": "TenistasUnitTest",
-      "projectPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasUnitTest\\TenistasUnitTest.csproj",
-      "packagesPath": "C:\\Users\\Juan Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasUnitTest\\TenistasUnitTest.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Juan Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4030,10 +4030,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj": {
-              "projectPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj"
+            "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\10mosemestre\\calidad\\UT\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj"
             }
           }
         }
@@ -4046,7 +4045,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -4087,7 +4085,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
