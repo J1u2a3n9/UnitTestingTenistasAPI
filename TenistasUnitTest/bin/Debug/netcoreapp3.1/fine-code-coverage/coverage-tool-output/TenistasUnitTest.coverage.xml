@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.0087" branch-rate="0" version="1.9" timestamp="1653015195" lines-covered="4" lines-valid="457" branches-covered="0" branches-valid="74">
+<coverage line-rate="0.0329" branch-rate="0" version="1.9" timestamp="1653016001" lines-covered="15" lines-valid="455" branches-covered="0" branches-valid="74">
   <sources>
     <source>D:\CalidadPracticaIV\TenistasAPI\</source>
     <source>C:\</source>
   </sources>
   <packages>
-    <package name="TenistasAPI" line-rate="0" branch-rate="0" complexity="134">
+    <package name="TenistasAPI" line-rate="0.0178" branch-rate="0" complexity="134">
       <classes>
         <class name="TenistasAPI.Program" filename="TenistasAPI\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -1245,7 +1245,7 @@
             <line number="13" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Controllers.TennisPlayersController" filename="TenistasAPI\Controllers\TennisPlayersController.cs" line-rate="0" branch-rate="0" complexity="10">
+        <class name="TenistasAPI.Controllers.TennisPlayersController" filename="TenistasAPI\Controllers\TennisPlayersController.cs" line-rate="0.1" branch-rate="0" complexity="10">
           <methods>
             <method name="GetTennisPlayers" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -1261,18 +1261,18 @@
                 <line number="36" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="GetTennisPlayer" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="GetTennisPlayer" signature="(System.Int32)" line-rate="0.4" branch-rate="1" complexity="1">
               <lines>
-                <line number="39" hits="0" branch="False" />
-                <line number="41" hits="0" branch="False" />
-                <line number="42" hits="0" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
                 <line number="44" hits="0" branch="False" />
                 <line number="45" hits="0" branch="False" />
                 <line number="46" hits="0" branch="False" />
                 <line number="48" hits="0" branch="False" />
                 <line number="49" hits="0" branch="False" />
                 <line number="50" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
+                <line number="52" hits="1" branch="False" />
               </lines>
             </method>
             <method name="CreateTennisPlayer" signature="(TenistasAPI.Models.TennisPlayerModel)" line-rate="0" branch-rate="0" complexity="2">
@@ -1359,12 +1359,12 @@
                 <line number="143" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(TenistasAPI.Services.ITennisPlayersService)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(TenistasAPI.Services.ITennisPlayersService)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
@@ -1379,16 +1379,16 @@
             <line number="33" hits="0" branch="False" />
             <line number="34" hits="0" branch="False" />
             <line number="36" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
-            <line number="41" hits="0" branch="False" />
-            <line number="42" hits="0" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
             <line number="44" hits="0" branch="False" />
             <line number="45" hits="0" branch="False" />
             <line number="46" hits="0" branch="False" />
             <line number="48" hits="0" branch="False" />
             <line number="49" hits="0" branch="False" />
             <line number="50" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
+            <line number="52" hits="1" branch="False" />
             <line number="55" hits="0" branch="False" />
             <line number="57" hits="0" branch="False" />
             <line number="58" hits="0" branch="True" condition-coverage="0% (0/2)">
@@ -1449,10 +1449,10 @@
             <line number="140" hits="0" branch="False" />
             <line number="141" hits="0" branch="False" />
             <line number="143" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
           </lines>
         </class>
         <class name="TenistasAPI.Controllers.TourneyController" filename="TenistasAPI\Controllers\TourneyController.cs" line-rate="0" branch-rate="0" complexity="7">
@@ -1601,7 +1601,7 @@
         </class>
       </classes>
     </package>
-    <package name="TenistasUnitTest" line-rate="0.4" branch-rate="1" complexity="2">
+    <package name="TenistasUnitTest" line-rate="0.875" branch-rate="1" complexity="2">
       <classes>
         <class name="AutoGeneratedProgram" filename="Users\Juan Luis\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -1615,32 +1615,28 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TenistasUnitTest.ControllerTests.TennisPlayersControllerTest" filename="TenistasUnitTest\ControllerTests\TennisPlayersController.cs" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+        <class name="TenistasUnitTest.ControllerTests.TennisPlayersControllerTest" filename="TenistasUnitTest\ControllerTests\TennisPlayersController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="GetTennisPlayer" signature="()" line-rate="0.44439999999999996" branch-rate="1" complexity="1">
+            <method name="GetTennisPlayer" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="20" hits="1" branch="False" />
-                <line number="21" hits="1" branch="False" />
-                <line number="22" hits="1" branch="False" />
                 <line number="23" hits="1" branch="False" />
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="20" hits="1" branch="False" />
-            <line number="21" hits="1" branch="False" />
-            <line number="22" hits="1" branch="False" />
             <line number="23" hits="1" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
           </lines>
         </class>
       </classes>

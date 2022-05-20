@@ -31,7 +31,7 @@ namespace TenistasAPI
 
             services.AddTransient<ITennisPlayersService, TennisPlayersService>();
             services.AddTransient<ITourneyService, TourneyService>();
-            services.AddSingleton<ILibraryRepository, LibraryRepository>();
+            services.AddTransient<ILibraryRepository, LibraryRepository>();
 
             services.AddAutoMapper(typeof(Startup));
         }

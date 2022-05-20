@@ -18,13 +18,13 @@ namespace TenistasUnitTest.ControllerTests
         [Fact]
         public void GetTennisPlayer()
         {
-            var _mapper = new Mock<IMapper>();
-            var _libraryRepository = new Mock<ILibraryRepository>();
-            var _tennisPlayersService = new Mock<ITennisPlayersService>(_libraryRepository, _mapper);
+            /*Mock<IMapper> _mapper = new Mock<IMapper>();
+            Mock<ILibraryRepository> _libraryRepository = new Mock<ILibraryRepository>();*/
+            Mock<ITennisPlayersService> _tennisPlayersService = new Mock<ITennisPlayersService>();
             TennisPlayersController _tennisPlayersController = new TennisPlayersController(_tennisPlayersService.Object);
             int id = 1;
             var method = _tennisPlayersController.GetTennisPlayer(id);
-            Assert.IsType<ActionResult<TennisPlayerModel>>(method.Result);
+            Assert.IsType<ActionResult<TennisPlayerModel>>(method);
 
         }
 
