@@ -67,3 +67,26 @@ D:\CalidadPracticaIV\TenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI
 D:\CalidadPracticaIV\TenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.dll
 D:\CalidadPracticaIV\TenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.pdb
 D:\CalidadPracticaIV\TenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.genruntimeconfig.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.StaticWebAssets.xml
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.exe
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.deps.json
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.runtimeconfig.json
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.runtimeconfig.dev.json
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.dll
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.pdb
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.csproj.AssemblyReference.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.AssemblyInfoInputs.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.AssemblyInfo.cs
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.csproj.CoreCompileInputs.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\staticwebassets\TenistasAPI.StaticWebAssets.Manifest.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.RazorTargetAssemblyInfo.cache
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.csproj.CopyComplete
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.dll
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.pdb
+C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.genruntimeconfig.cache

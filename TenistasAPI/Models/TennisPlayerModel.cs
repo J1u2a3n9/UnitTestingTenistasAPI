@@ -8,9 +8,9 @@ namespace TenistasAPI.Models
 {
     public class TennisPlayerModel
     {
-        [Required]
+        //[Required]
         public int Id{get;set;}
-        [Required]
+        //[Required]
         public string Name { get; set; }
         public string Nationality { get; set; }
         public int? CurrentRanking { get; set; }

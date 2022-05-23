@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Juan Luis\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Juan Luis\\.nuget\\packages"
+      "C:\\Users\\ALIENWARE M17 R3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ALIENWARE M17 R3\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }

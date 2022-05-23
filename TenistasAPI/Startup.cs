@@ -12,9 +12,11 @@ using Microsoft.Extensions.Logging;
 using AutoMapper;
 using TenistasAPI.Services;
 using TenistasAPI.Data.Repository;
+using System.Diagnostics.CodeAnalysis;
 
 namespace TenistasAPI
 {
+    [ExcludeFromCodeCoverage]
     public class Startup
     {
         public Startup(IConfiguration configuration)
