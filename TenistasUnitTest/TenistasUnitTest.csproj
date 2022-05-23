@@ -18,8 +18,4 @@
     <ProjectReference Include="..\TenistasAPI\TenistasAPI.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ServiciosTests\" />
-  </ItemGroup>
-
 </Project>

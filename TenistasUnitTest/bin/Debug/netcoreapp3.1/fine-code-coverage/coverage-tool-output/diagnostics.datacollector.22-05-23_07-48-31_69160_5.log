@@ -1,0 +1,640 @@
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.784, 321586971829, datacollector.dll, Version: 17.1.0-release-20220113-05
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.790, 321587022897, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,51273,--parentprocessid,752,--diag,D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-05-23_07-48-31_69160_5.log,--tracelevel,4
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.790, 321587023993, datacollector.dll, DataCollector: Monitoring parent process with id: '752'
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.799, 321587107355, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:51273 
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.805, 321587172044, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:31.813, 321587250086, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:31.813, 321587250638, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.899, 321588115531, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.906, 321588184915, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>D:\\CalidadPracticaIVOficial\\TenistasFinal\\UnitTestingTenistasAPI\\TenistasUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\6.0.203\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.203\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>D:\\CalidadPracticaIVOficial\\TenistasFinal\\UnitTestingTenistasAPI\\TenistasUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "D:\\CalidadPracticaIVOficial\\TenistasFinal\\UnitTestingTenistasAPI\\TenistasUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\TenistasUnitTest.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.940, 321588519261, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.940, 321588524953, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\6.0.203\Extensions'.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.940, 321588525421, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.946, 321588579563, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.946, 321588581264, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.946, 321588581648, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.946, 321588581946, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.946, 321588586222, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\6.0.203\Extensions,C:\Program Files\dotnet\sdk\6.0.203
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588599921, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588601127, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588601458, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588601678, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588602041, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588602921, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.203\Extensions,C:\Program Files\dotnet\sdk\6.0.203
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588603313, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.203\Extensions,C:\Program Files\dotnet\sdk\6.0.203
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588606100, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.948, 321588606615, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.203\Extensions'.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.949, 321588611156, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.949, 321588615483, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 6000, 1, 2022/05/23, 07:48:31.953, 321588647212, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.953, 321588656168, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.953, 321588656684, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.203\Extensions'.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.954, 321588662324, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.955, 321588667437, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 6000, 1, 2022/05/23, 07:48:31.956, 321588683005, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.956, 321588685545, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.203\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.956, 321588685956, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.956, 321588686193, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.956, 321588686398, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.956, 321588686601, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:31.957, 321588686842, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.957, 321588695379, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 6000, 1, 2022/05/23, 07:48:31.958, 321588697441, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.963, 321588750455, datacollector.dll, Listening on Endpoint : 127.0.0.1:51275
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:31.970, 321588825499, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:32.028, 321589399864, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 7928
+}
+TpTrace Information: 0 : 6000, 5, 2022/05/23, 07:48:32.168, 321590802532, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 6000, 5, 2022/05/23, 07:48:32.168, 321590803171, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.008, 321599201663, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.015, 321599269694, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.015, 321599276605, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.GrandSlamTitlesTest - 65ce103e-d4f1-58e2-f014-5627e6d53200' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.016, 321599284064, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.017, 321599286781, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.017, 321599288169, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.NationalityTest - 16648651-feac-55f2-99ad-159075e73bdf' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.017, 321599293773, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.017, 321599296623, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.018, 321599298022, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.CreateTourney - 720212f2-4a54-9dda-cf6d-db2eef280ceb' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.019, 321599308571, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.019, 321599310961, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.019, 321599312115, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetPlayerWithSameResults - 416baa4f-931e-b8d8-760f-4983f66c48cc' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.020, 321599317402, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.020, 321599318992, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.020, 321599320116, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTourneyTestAndVerify - 10f0464e-3fd7-8586-85e2-e627a92a33bb' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.020, 321599325700, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.021, 321599327607, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.021, 321599328467, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.IdTest - aaa771dc-5163-066c-876b-34d233e24767' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.021, 321599333927, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.021, 321599335753, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.022, 321599336744, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.UpdateTourney - e3239b75-2e27-d7cc-c53b-c00f0a4e71b3' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.022, 321599341371, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.022, 321599343243, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.022, 321599344259, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.DeleteTennisPlayerTest - a732dc02-c157-1d86-e436-fb605ab8585b' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.023, 321599349258, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.023, 321599352498, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.023, 321599353809, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.CountryTest - e8b0b144-1a54-f323-7f3a-b3af9cbb243a' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.028, 321599401558, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.030, 321599426668, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.033, 321599451299, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTourneyTestAndVerify - 10f0464e-3fd7-8586-85e2-e627a92a33bb' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.039, 321599509427, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.039, 321599511886, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.039, 321599513292, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.GrandSlamTitlesTest - 65ce103e-d4f1-58e2-f014-5627e6d53200' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.040, 321599520177, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.040, 321599521918, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.040, 321599522847, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.CountryTest - e8b0b144-1a54-f323-7f3a-b3af9cbb243a' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.041, 321599527455, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.041, 321599529193, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.041, 321599530044, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.NationalityTest - 16648651-feac-55f2-99ad-159075e73bdf' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.047, 321599589607, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.047, 321599591880, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.047, 321599592938, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.IdTest - aaa771dc-5163-066c-876b-34d233e24767' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.073, 321599851618, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.073, 321599853875, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.073, 321599854954, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.NameTest - 40fb4908-1eaf-121f-ef04-c5047c635e49' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.074, 321599859429, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.074, 321599861066, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.074, 321599861937, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.NameTest - 5cccf58e-77b5-c042-9fbf-0df53c07ddcb' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.074, 321599865978, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.075, 321599867553, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.075, 321599868351, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.TourneysTest - a1a7d68d-0686-5e26-7ab4-05ec629568b9' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.075, 321599872623, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.075, 321599874469, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.075, 321599875595, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTourneysTest - 77db3983-b736-41aa-42d0-769178794304' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.076, 321599880483, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.076, 321599883395, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.076, 321599884797, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.BestRankingTest - 57e7d7bd-6425-f723-0517-cdfc4cefd547' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.077, 321599890876, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.077, 321599892863, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.077, 321599893911, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.NameTest - 5cccf58e-77b5-c042-9fbf-0df53c07ddcb' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.078, 321599899124, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.078, 321599900978, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.078, 321599901897, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.IdTest - 4cb50210-c4de-aae4-f6c9-b3f51415fc0e' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.079, 321599907284, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.079, 321599910492, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.079, 321599911925, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.NameTest - 40fb4908-1eaf-121f-ef04-c5047c635e49' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.097, 321600094051, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.098, 321600097626, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.098, 321600099259, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.PlayerIdTest - 4ea391c5-6580-b64a-cdaa-c8ad76044508' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.098, 321600105913, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.099, 321600108578, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.099, 321600109959, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.BestRankingTest - 57e7d7bd-6425-f723-0517-cdfc4cefd547' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.100, 321600120465, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.100, 321600124281, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.100, 321600126588, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.IdTest - 4cb50210-c4de-aae4-f6c9-b3f51415fc0e' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.101, 321600135130, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.102, 321600139128, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.102, 321600140980, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.FullNameTest - 7b3fe68a-cb67-6761-fd64-61ea60f40283' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.103, 321600149010, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.103, 321600152750, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.103, 321600155073, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.PlayerIdTest - 4a5ac047-c386-b3fa-1e4a-97e5a6e0e8f1' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.104, 321600163595, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.105, 321600169078, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.105, 321600171752, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.PlayerIdTest - 4ea391c5-6580-b64a-cdaa-c8ad76044508' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.107, 321600190413, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.107, 321600194169, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.107, 321600196023, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.CountryTest - 792e4d77-ea04-2ace-5290-cb1a97a38d15' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.108, 321600202919, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.108, 321600205981, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.109, 321600207878, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyEntityTest.PlayerIdTest - 4a5ac047-c386-b3fa-1e4a-97e5a6e0e8f1' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.110, 321600219011, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.110, 321600223039, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.110, 321600224553, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.FullNameTest - 7b3fe68a-cb67-6761-fd64-61ea60f40283' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.111, 321600232319, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.111, 321600235457, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.112, 321600236774, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.TourneysTest - 8ed84204-99c2-2828-fec3-fc9d747b4ea4' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.112, 321600242786, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.112, 321600245180, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.113, 321600246835, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TourneyModelTest.CountryTest - 792e4d77-ea04-2ace-5290-cb1a97a38d15' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.118, 321600297397, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.118, 321600301336, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.118, 321600303168, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTourneysTest - 77db3983-b736-41aa-42d0-769178794304' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.119, 321600309696, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.119, 321600312120, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.119, 321600313389, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateRankingsTest - 82f0557b-baac-ec71-9594-6b47976cdbbe' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.120, 321600318017, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.120, 321600319979, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.120, 321600321519, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateRankingsTest - 82f0557b-baac-ec71-9594-6b47976cdbbe' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.121, 321600329184, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.121, 321600333013, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.121, 321600334842, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTop10TestAll - 90a3d49f-2b21-e826-df42-c1d9f5eba8bf' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.122, 321600341623, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.122, 321600343708, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.122, 321600344962, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTop10TestAll - 90a3d49f-2b21-e826-df42-c1d9f5eba8bf' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.123, 321600349881, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.123, 321600352882, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.123, 321600354530, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.VerifyNationality - c5f43292-d86a-9856-ee8c-3fabe2bb4162' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.124, 321600361868, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.125, 321600367402, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.125, 321600369124, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.VerifyNationality - c5f43292-d86a-9856-ee8c-3fabe2bb4162' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.125, 321600375350, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.126, 321600377193, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.126, 321600378056, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTop10TestNationality - cda045ff-d299-357b-d216-6d9aa7069b38' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.126, 321600383789, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.126, 321600386442, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.127, 321600387530, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTop10TestNationality - cda045ff-d299-357b-d216-6d9aa7069b38' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.129, 321600406761, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.129, 321600409564, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.129, 321600410796, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTourneyTest - 7bad8520-ae16-0f65-a65f-aead5f517727' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.129, 321600415840, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.130, 321600417583, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.130, 321600418534, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.TourneysTest - a1a7d68d-0686-5e26-7ab4-05ec629568b9' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.130, 321600425105, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.131, 321600427121, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.131, 321600428094, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.TourneysTest - 8ed84204-99c2-2828-fec3-fc9d747b4ea4' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.131, 321600434226, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.131, 321600435777, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.131, 321600436584, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.FullNameTest - 9619a6a5-fa4b-1f6b-bca5-8a45d681c6f6' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.132, 321600440611, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.132, 321600442153, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.132, 321600442968, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.IdTest - 0ac6cbf2-37b4-ae7d-0d85-ebc1daa4ceef' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.133, 321600447120, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.133, 321600448741, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.133, 321600449600, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.IdTest - 0ac6cbf2-37b4-ae7d-0d85-ebc1daa4ceef' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.133, 321600454746, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.133, 321600456227, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.134, 321600456950, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.TotalTitlesTest - 61bee517-7131-8638-757d-28be375763c7' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.134, 321600460737, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.134, 321600462354, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.134, 321600463259, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.FullNameTest - 9619a6a5-fa4b-1f6b-bca5-8a45d681c6f6' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.135, 321600468213, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.135, 321600469730, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.135, 321600470490, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.BirthdateTest - c518d276-99e9-78ca-9a9f-01b181d00a6e' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.135, 321600474671, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.135, 321600476146, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.136, 321600476944, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.TotalTitlesTest - 61bee517-7131-8638-757d-28be375763c7' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.136, 321600481483, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.136, 321600482988, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.136, 321600483769, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.RankingTest - 27a1dae0-032c-940a-a376-df5f574460b3' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.137, 321600487670, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.137, 321600489253, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.137, 321600490154, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.RankingTest - 27a1dae0-032c-940a-a376-df5f574460b3' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.137, 321600494314, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.138, 321600497032, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.138, 321600498368, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.BirthdateTest - 82dbd5e4-6504-f65d-c23d-b51bc67111a3' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.138, 321600502372, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.138, 321600503907, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.138, 321600504738, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTourneyTest - 7bad8520-ae16-0f65-a65f-aead5f517727' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.140, 321600517883, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.140, 321600520508, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.140, 321600522170, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetInexistentPlayerTest - c578f327-4b0d-0fb6-0aaf-d59add05f3fa' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.141, 321600528957, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.141, 321600531130, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.141, 321600532172, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetInexistentPlayerTest - c578f327-4b0d-0fb6-0aaf-d59add05f3fa' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.142, 321600538721, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.142, 321600541248, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.142, 321600542228, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.VerifyInexistentNationality - d4bd5aee-1099-c3f5-c723-bb10dba0ea73' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.143, 321600548048, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.143, 321600550661, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.143, 321600552397, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.VerifyInexistentNationality - d4bd5aee-1099-c3f5-c723-bb10dba0ea73' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.144, 321600564187, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.144, 321600566385, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.145, 321600567434, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerTest - a1712996-eeb3-1e29-f646-d4e8fad2dffd' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.145, 321600573089, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.145, 321600574910, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.145, 321600575821, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.BirthdateTest - 82dbd5e4-6504-f65d-c23d-b51bc67111a3' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.146, 321600580393, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.146, 321600581907, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.146, 321600582766, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.BirthdateTest - c518d276-99e9-78ca-9a9f-01b181d00a6e' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.147, 321600587521, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.147, 321600588983, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.147, 321600589743, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.GrandSlamTitlesTest - 4fea0832-313e-c77a-57a4-c4a125b340e6' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.147, 321600593749, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.147, 321600595228, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.147, 321600595968, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.NationalityTest - 7f677c7e-3f35-3fb8-bcfd-478103f9f765' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.148, 321600600082, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.148, 321600601564, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.148, 321600602432, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerTest - a1712996-eeb3-1e29-f646-d4e8fad2dffd' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.149, 321600607316, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.149, 321600608779, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.149, 321600609502, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateTourneyTest - 76e3407d-119e-ada9-152b-a119fc7fca5c' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.149, 321600613689, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.149, 321600615175, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.149, 321600615973, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerEntityTest.GrandSlamTitlesTest - 4fea0832-313e-c77a-57a4-c4a125b340e6' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.150, 321600620771, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.150, 321600622243, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.150, 321600623024, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.NationalityTest - 7f677c7e-3f35-3fb8-bcfd-478103f9f765' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.151, 321600627602, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.151, 321600629056, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.151, 321600629802, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.RankingTest - 20d3b28f-e491-0d2e-f81a-dcbbf8fa92bd' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.151, 321600633817, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.151, 321600635270, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.151, 321600636045, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateTourneyTest - 76e3407d-119e-ada9-152b-a119fc7fca5c' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.152, 321600646396, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.153, 321600647891, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.153, 321600648643, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTourneyTestId - b6e555fa-e266-c09d-7016-d5c9e78c5c7a' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.153, 321600652386, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.153, 321600654456, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.153, 321600655348, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.RankingTest - 20d3b28f-e491-0d2e-f81a-dcbbf8fa92bd' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.154, 321600661881, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.154, 321600664026, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.154, 321600665081, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.BestRankingTest - 3008ba6c-f8da-5749-4f65-58c9072af7ff' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.158, 321600697112, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.158, 321600699006, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.158, 321600700149, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTourneyTestId - b6e555fa-e266-c09d-7016-d5c9e78c5c7a' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.158, 321600705476, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.159, 321600706889, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.159, 321600707574, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTourneyTest - 480c67a2-634a-69b7-5047-0b03f9ae918a' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.159, 321600711530, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.159, 321600713063, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.159, 321600713873, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTourneyTest - 480c67a2-634a-69b7-5047-0b03f9ae918a' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.160, 321600718371, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.160, 321600719886, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.160, 321600720614, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateInexistingPlayerRankingsTest - 143db06d-c8bc-4c6e-46e9-5a3a695d80d4' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.160, 321600724490, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.160, 321600725982, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.161, 321600726758, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.BestRankingTest - 3008ba6c-f8da-5749-4f65-58c9072af7ff' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.161, 321600731051, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.161, 321600732504, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.161, 321600733205, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.TotalTitlesTest - ace52439-61b9-ad0f-3504-ab4c449b07b9' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.162, 321600736982, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.162, 321600738413, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.162, 321600739168, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.TotalTitlesTest - ace52439-61b9-ad0f-3504-ab4c449b07b9' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.162, 321600743528, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.162, 321600744976, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.162, 321600745674, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.IdTest - 382a1a43-fd37-1e46-bf92-2ff8a0e1071c' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.163, 321600749458, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.163, 321600750911, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.163, 321600751669, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.TennisPlayerModelTest.IdTest - 382a1a43-fd37-1e46-bf92-2ff8a0e1071c' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.171, 321600834748, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.171, 321600836641, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.172, 321600837528, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateInexistingPlayerRankingsTest - 143db06d-c8bc-4c6e-46e9-5a3a695d80d4' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.172, 321600842441, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.172, 321600844162, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.172, 321600844883, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTennisPlayerTestAndVerify - f952a96a-eaea-4c23-aeb5-02dfb7ea97dd' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.173, 321600848752, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.173, 321600850210, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.173, 321600851013, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTennisPlayerTestAndVerify - f952a96a-eaea-4c23-aeb5-02dfb7ea97dd' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.173, 321600855589, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.174, 321600857068, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.174, 321600857776, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerWithSameResultsTestGrandslams - 9613d632-6983-9236-3240-7675ed95b019' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.174, 321600861782, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.174, 321600863273, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.174, 321600864132, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerWithSameResultsTestGrandslams - 9613d632-6983-9236-3240-7675ed95b019' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.175, 321600874549, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.175, 321600876085, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.176, 321600876807, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTennisPlayerTest - 510d4cb0-4a57-e5d9-26c8-5bd8f6441e09' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.176, 321600880794, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.176, 321600882317, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.176, 321600883151, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTennisPlayerTest - 510d4cb0-4a57-e5d9-26c8-5bd8f6441e09' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.177, 321600888486, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.177, 321600889930, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.177, 321600890704, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTennisPlayerTestId - 65d69c71-1091-7b11-901e-08d63c1156f4' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.177, 321600894617, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.177, 321600896221, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.178, 321600897032, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.CreateTennisPlayerTestId - 65d69c71-1091-7b11-901e-08d63c1156f4' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.178, 321600901822, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.178, 321600903338, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.178, 321600904053, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateTennisPlayerTest - e9430d3a-4070-ebac-9697-d0a8735935b8' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.179, 321600907875, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.179, 321600909483, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.179, 321600910416, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateTennisPlayerTest - e9430d3a-4070-ebac-9697-d0a8735935b8' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.179, 321600915561, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.180, 321600917094, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.180, 321600917887, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerWithSameResultsTestCareertitles - 015ca02d-f689-6411-44ff-42212fbeb8bd' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.180, 321600921672, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.180, 321600923273, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.180, 321600924042, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerWithSameResultsTestCareertitles - 015ca02d-f689-6411-44ff-42212fbeb8bd' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.181, 321600928977, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.181, 321600930503, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.181, 321600931211, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetInexistentTourneysTest - 17f60923-7b76-b4d6-e2ff-bf468ef14c37' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.181, 321600935228, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.181, 321600936694, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.182, 321600937483, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetInexistentTourneysTest - 17f60923-7b76-b4d6-e2ff-bf468ef14c37' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.182, 321600942102, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.182, 321600943580, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.182, 321600944267, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerWithSameResultsTestDefault - 1f263b10-8707-5506-4958-95ee84a3bbc3' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.183, 321600948177, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.183, 321600949632, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.183, 321600950448, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetPlayerWithSameResultsTestDefault - 1f263b10-8707-5506-4958-95ee84a3bbc3' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.183, 321600955217, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.183, 321600956655, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.184, 321600957707, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateInexistentTourneyTest - 99f9b8fd-2378-18a6-7150-8fb985a04fbf' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.185, 321600968947, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.185, 321600970575, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.185, 321600971550, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateInexistentTourneyTest - 99f9b8fd-2378-18a6-7150-8fb985a04fbf' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.186, 321600978195, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.186, 321600979699, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.186, 321600980432, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteInexistentTourneyTest - eb1e8d2c-0be1-ebcd-ae62-52f690dc2013' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.187, 321600994720, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.188, 321600997415, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.188, 321600998354, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteInexistentTourneyTest - eb1e8d2c-0be1-ebcd-ae62-52f690dc2013' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.188, 321601003530, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.188, 321601005050, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.188, 321601005804, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTourneyTest - 8ea0e807-29f8-b1b9-394d-b0591ec0b44a' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.189, 321601009919, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.189, 321601011451, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.189, 321601012226, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTourneyTest - 8ea0e807-29f8-b1b9-394d-b0591ec0b44a' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.190, 321601022508, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.190, 321601024106, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.190, 321601024864, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteInexistentTennisPlayerTest - 1229d7f8-a07c-310b-c0fc-ba952a9f1ea4' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.191, 321601035629, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.192, 321601037387, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.192, 321601038307, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteInexistentTennisPlayerTest - 1229d7f8-a07c-310b-c0fc-ba952a9f1ea4' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.192, 321601046563, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.193, 321601048141, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.193, 321601048875, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetInexistentTourneyTest - 5f4f9719-feb2-5755-a61d-e082bdada328' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.193, 321601052970, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.193, 321601054488, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.193, 321601055343, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetInexistentTourneyTest - 5f4f9719-feb2-5755-a61d-e082bdada328' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.194, 321601060221, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.194, 321601061688, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.194, 321601062378, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTennisPlayersTest - 5afa32f5-6319-64bb-bb0e-b2dd5017f1d9' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.194, 321601066370, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.195, 321601067842, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.195, 321601068624, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.GetTennisPlayersTest - 5afa32f5-6319-64bb-bb0e-b2dd5017f1d9' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.195, 321601073386, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.195, 321601074811, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.195, 321601075550, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTennisPlayerTest - 3f4b9495-cd6c-9e8c-1d10-b1aa78de952a' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.196, 321601079587, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.196, 321601081023, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.196, 321601081810, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.DeleteTennisPlayerTest - 3f4b9495-cd6c-9e8c-1d10-b1aa78de952a' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.196, 321601086521, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.197, 321601087935, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.197, 321601088677, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateInexistentTennisPlayerTest - 946a3a4f-8f50-d1c9-1444-43a044087c3f' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.198, 321601099007, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.198, 321601100607, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.198, 321601101757, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.General.LibraryRepositoryTest.UpdateInexistentTennisPlayerTest - 946a3a4f-8f50-d1c9-1444-43a044087c3f' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.199, 321601106829, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.199, 321601108457, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.199, 321601109347, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.CreateTourney - 720212f2-4a54-9dda-cf6d-db2eef280ceb' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.199, 321601115150, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.200, 321601116810, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.200, 321601117578, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.GetTourney - 1460da2d-a1dc-f898-d4ea-99deb8007469' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.200, 321601121650, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.200, 321601123291, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.200, 321601124097, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.GetTourney - 1460da2d-a1dc-f898-d4ea-99deb8007469' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.201, 321601128847, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.201, 321601130361, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.201, 321601131120, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.DeleteTennisPlayer - 10349762-4d15-eb88-bb5d-5545560a2f34' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.201, 321601135609, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.202, 321601137116, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.202, 321601137977, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.DeleteTennisPlayerTest - a732dc02-c157-1d86-e436-fb605ab8585b' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.203, 321601148771, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.203, 321601150345, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.203, 321601151139, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTennisPlayersTest - 37ea0e08-f3e8-074c-248f-fd91c15c1476' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.203, 321601155744, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.205, 321601174771, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.205, 321601176133, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.DeleteTennisPlayer - 10349762-4d15-eb88-bb5d-5545560a2f34' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.206, 321601182426, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.206, 321601183956, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.206, 321601184740, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.GetTourneys - 55f02e3f-a60d-6a47-88c2-5b475c1b95c6' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.207, 321601188690, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.207, 321601190132, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.207, 321601190924, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTennisPlayersTest - 37ea0e08-f3e8-074c-248f-fd91c15c1476' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.207, 321601195646, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.208, 321601197043, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.208, 321601197742, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTennisPlayerBadRequestTest - 8e77d633-020b-6ae9-4837-71bec7518a2d' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.208, 321601201608, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.208, 321601203089, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.208, 321601203869, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.GetTourneys - 55f02e3f-a60d-6a47-88c2-5b475c1b95c6' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.209, 321601208297, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.209, 321601209780, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.209, 321601210505, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.UpdateTennisPlayer - 45972255-75f0-db41-fff7-f2d5cede167a' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.209, 321601214472, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.209, 321601215936, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.210, 321601216715, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTennisPlayerBadRequestTest - 8e77d633-020b-6ae9-4837-71bec7518a2d' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.210, 321601221179, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.210, 321601222685, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.210, 321601223431, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTennisPlayerTest - ea6c5c55-4b58-fd36-cfba-f0811c59ccfb' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.211, 321601227699, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.211, 321601229199, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.211, 321601230369, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyControllerTest.UpdateTennisPlayer - 45972255-75f0-db41-fff7-f2d5cede167a' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.211, 321601234952, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.211, 321601236399, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.212, 321601237167, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTennisPlayerTest - ea6c5c55-4b58-fd36-cfba-f0811c59ccfb' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.212, 321601241766, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.212, 321601243245, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.212, 321601243943, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.UpdateTennisPlayerTest - a6fe3f6e-2f5d-6bb5-7955-f8be605d462b' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.213, 321601247843, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.213, 321601249304, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.213, 321601250057, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.UpdateTennisPlayerTest - a6fe3f6e-2f5d-6bb5-7955-f8be605d462b' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.213, 321601255968, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.214, 321601257799, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.214, 321601258577, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetPlayerWithSameResultsTest - 3aaffb1f-36f5-1d4d-f379-30365baf8365' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.214, 321601262644, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.214, 321601264095, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.214, 321601264872, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetPlayerWithSameResultsTest - 3aaffb1f-36f5-1d4d-f379-30365baf8365' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.215, 321601269579, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.215, 321601271004, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.215, 321601271704, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.CreateTennisPlayerTest - 961fef42-4c13-b369-5e62-a8195e1712cc' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.215, 321601275561, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.216, 321601276982, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.216, 321601277731, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.CreateTennisPlayerTest - 961fef42-4c13-b369-5e62-a8195e1712cc' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.217, 321601288038, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.217, 321601289569, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.217, 321601290300, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.UpdateRankingsTest - 266d7405-c634-3e7a-965a-a9d1da22e6e9' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.217, 321601294234, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.217, 321601295745, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.217, 321601296559, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.UpdateRankingsTest - 266d7405-c634-3e7a-965a-a9d1da22e6e9' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.218, 321601301996, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.218, 321601303477, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.218, 321601304233, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTop10Test - 9cbe11bc-c674-1fb9-72d2-80bd6b9ad33b' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.219, 321601308367, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.219, 321601309865, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.219, 321601310686, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersControllerTest.GetTop10Test - 9cbe11bc-c674-1fb9-72d2-80bd6b9ad33b' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.219, 321601315165, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.219, 321601316634, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.220, 321601317408, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.UpdateTourney - e3239b75-2e27-d7cc-c53b-c00f0a4e71b3' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.220, 321601322444, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.220, 321601323982, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.220, 321601324738, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.DeleteTourney - d1708c1c-6bc9-4b35-babb-e73aedf21037' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.221, 321601329009, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.221, 321601330537, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.221, 321601331406, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetPlayerWithSameResults - 416baa4f-931e-b8d8-760f-4983f66c48cc' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.222, 321601338474, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.222, 321601339905, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.222, 321601340659, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayer - c1ad2060-54ee-85a7-b0bc-e11ebd78ffd4' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.222, 321601344630, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.222, 321601346059, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.223, 321601346821, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayer - c1ad2060-54ee-85a7-b0bc-e11ebd78ffd4' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.223, 321601351121, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.223, 321601352565, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.223, 321601353272, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTop10toBadRequest - bfb4a8e2-9737-4081-ff3c-5972ae663733' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.224, 321601357093, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.224, 321601358523, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.224, 321601359287, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.DeleteTourney - d1708c1c-6bc9-4b35-babb-e73aedf21037' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.224, 321601363959, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.224, 321601365366, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.224, 321601366067, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneyBadRequestTourneyNull - d5ae3291-2cae-3e74-0008-476583c2a9a4' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.225, 321601370181, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.225, 321601371568, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.225, 321601372358, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTop10toBadRequest - bfb4a8e2-9737-4081-ff3c-5972ae663733' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.225, 321601376232, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.226, 321601377648, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.226, 321601378394, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneyBadRequestTourneyNull - d5ae3291-2cae-3e74-0008-476583c2a9a4' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.226, 321601383727, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.226, 321601385134, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.226, 321601385838, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.UpdateRankings - 56936617-f3d4-5196-3d65-7e50575bf61c' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.227, 321601395025, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.227, 321601396521, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.228, 321601397258, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.ValidatePlayerBadResquest - b44a1f86-839f-82e1-1da9-2378e819a5de' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.228, 321601401326, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.228, 321601402763, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.228, 321601403541, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.UpdateRankings - 56936617-f3d4-5196-3d65-7e50575bf61c' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.229, 321601408647, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.229, 321601410117, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.229, 321601410829, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayersBadRequest - 78a484f5-8110-fb6b-29fd-42b9ecd18ee2' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.229, 321601414767, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.229, 321601416184, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.230, 321601416959, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayersBadRequest - 78a484f5-8110-fb6b-29fd-42b9ecd18ee2' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.230, 321601421628, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.230, 321601423097, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.230, 321601423808, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetPlayerWithSameResultsBadRequest - 13fcf80f-b41c-3f09-4662-0d7722a8f69d' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.231, 321601427750, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.231, 321601429219, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.231, 321601429989, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.ValidatePlayerBadResquest - b44a1f86-839f-82e1-1da9-2378e819a5de' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.231, 321601434629, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.231, 321601436072, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.232, 321601436769, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.CreateTourneyService - 137d1aba-d115-d867-ff04-5c472357d3ed' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.232, 321601440621, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.232, 321601442155, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.232, 321601442943, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.CreateTourneyService - 137d1aba-d115-d867-ff04-5c472357d3ed' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.233, 321601447255, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.233, 321601448721, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.233, 321601449429, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneys - 117eabca-c6be-47d8-f0aa-1337788cb9f3' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.233, 321601453632, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.233, 321601455111, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.233, 321601455893, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetPlayerWithSameResultsBadRequest - 13fcf80f-b41c-3f09-4662-0d7722a8f69d' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.234, 321601460349, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.234, 321601461814, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.234, 321601462529, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTop10toAll - 32114b76-af7a-f0f3-b6cb-47003ba0e4d2' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.234, 321601466384, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.235, 321601467850, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.235, 321601468607, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneys - 117eabca-c6be-47d8-f0aa-1337788cb9f3' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.235, 321601472871, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.235, 321601474316, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.235, 321601475025, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneysBadRequest - de543ab9-d760-148a-a850-3defbbad4249' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.236, 321601478893, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.236, 321601480358, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.236, 321601481119, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTop10toAll - 32114b76-af7a-f0f3-b6cb-47003ba0e4d2' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.236, 321601485416, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.237, 321601486834, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.237, 321601487584, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.CreateTennisPlayer - 0f96f600-ef5f-41b1-17de-40beeec4c587' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.237, 321601491520, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.237, 321601493001, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.237, 321601493807, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.CreateTennisPlayer - 0f96f600-ef5f-41b1-17de-40beeec4c587' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.238, 321601504144, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.238, 321601505639, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.238, 321601506381, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.UpdateTennisPlayer - e6f5b18d-4353-40f5-d95c-5f21dce664f2' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.239, 321601510332, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.239, 321601511851, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.239, 321601512754, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneysBadRequest - de543ab9-d760-148a-a850-3defbbad4249' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.240, 321601518837, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.240, 321601520693, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.240, 321601521543, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneyBadRequestIdDiferentl - d4c4e83c-1214-f1f4-ff4b-402da22a4214' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.240, 321601525923, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.241, 321601527467, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.241, 321601528277, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.UpdateTennisPlayer - e6f5b18d-4353-40f5-d95c-5f21dce664f2' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.241, 321601533354, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.241, 321601534839, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.241, 321601535569, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.DeleteTennisPlayer - 36de6129-3979-6deb-8e90-1cb6d8f8bd67' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.242, 321601539600, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.242, 321601541062, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.242, 321601541853, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneyBadRequestIdDiferentl - d4c4e83c-1214-f1f4-ff4b-402da22a4214' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.242, 321601546315, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.243, 321601547807, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.243, 321601548533, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.CreateTourneyServiceFromService - 8deee0f5-5ba5-3f0f-6b9e-164c80d319b9' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.243, 321601552430, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.243, 321601553924, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.243, 321601554681, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.DeleteTennisPlayer - 36de6129-3979-6deb-8e90-1cb6d8f8bd67' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.244, 321601559146, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.244, 321601560590, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.244, 321601561332, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTop10toNacionalityOther - 7a4662ff-3118-f7c1-3c07-eddf350c0116' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.244, 321601565345, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.245, 321601566822, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.245, 321601567580, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.CreateTourneyServiceFromService - 8deee0f5-5ba5-3f0f-6b9e-164c80d319b9' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.245, 321601571983, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.245, 321601573447, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.245, 321601574152, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneyBadRequestPlayerNull - 4ef89399-5efa-ba0f-5251-f33a01d9cc33' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.246, 321601578114, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.246, 321601579589, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.246, 321601580349, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTop10toNacionalityOther - 7a4662ff-3118-f7c1-3c07-eddf350c0116' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.246, 321601584830, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.246, 321601586288, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.247, 321601586998, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayerBadRequest - 81e14236-958a-b0fa-e4a2-732fbd030e86' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.247, 321601590913, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.247, 321601592443, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.247, 321601593214, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TourneyServiceTestTest.GetTourneyBadRequestPlayerNull - 4ef89399-5efa-ba0f-5251-f33a01d9cc33' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.248, 321601597715, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.248, 321601599200, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.248, 321601599962, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayerBadRequest - 81e14236-958a-b0fa-e4a2-732fbd030e86' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.248, 321601604829, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.248, 321601606229, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.249, 321601606985, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.UpdateRankingsBadRequest - 10c8ea33-435c-6916-67e5-ba4d2b7c4522' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.249, 321601611197, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.249, 321601612634, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.249, 321601613432, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.UpdateRankingsBadRequest - 10c8ea33-435c-6916-67e5-ba4d2b7c4522' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.253, 321601651393, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.253, 321601653465, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.253, 321601654481, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.CreateTennisPlayerFromService - 64816899-896b-6692-a4e3-dcd4c4c86731' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.254, 321601659370, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.254, 321601661032, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.254, 321601661930, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.CreateTennisPlayerFromService - 64816899-896b-6692-a4e3-dcd4c4c86731' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.255, 321601667451, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.255, 321601668903, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.255, 321601669706, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayers - 6662be76-fa23-0e55-457a-2739878bbbc7' started.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.255, 321601676395, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.256, 321601678005, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.256, 321601678811, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'TenistasUnitTest.ControllerTests.TennisPlayersServiceTest.GetTennisPlayers - 6662be76-fa23-0e55-457a-2739878bbbc7' completed
+TpTrace Information: 0 : 6000, 8, 2022/05/23, 07:48:33.261, 321601734100, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.318, 321602298576, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.318, 321602304365, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.318, 321602304893, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.318, 321602305805, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:33.318, 321602306130, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 6000, 1, 2022/05/23, 07:48:33.319, 321602306902, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.319, 321602307399, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.321, 321602327382, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.321, 321602328871, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.321, 321602329250, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 6000, 1, 2022/05/23, 07:48:33.321, 321602329508, datacollector.dll, Program.Main: exiting datacollector process.

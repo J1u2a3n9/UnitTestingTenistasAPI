@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.8177" branch-rate="0.7637999999999999" version="1.9" timestamp="1653276982" lines-covered="332" lines-valid="406" branches-covered="55" branches-valid="72">
+<coverage line-rate="0.8177" branch-rate="0.7637999999999999" version="1.9" timestamp="1653306513" lines-covered="332" lines-valid="406" branches-covered="55" branches-valid="72">
   <sources>
-    <source>C:\Users\ALIENWARE M17 R3\</source>
+    <source>D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\</source>
+    <source>C:\</source>
   </sources>
   <packages>
     <package name="TenistasAPI" line-rate="0.8197" branch-rate="0.7637999999999999" complexity="126">
       <classes>
-        <class name="TenistasAPI.Services.TennisPlayersService" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Services\TennisPlayersService.cs" line-rate="1" branch-rate="1" complexity="16">
+        <class name="TenistasAPI.Services.TennisPlayersService" filename="Services\TennisPlayersService.cs" line-rate="1" branch-rate="1" complexity="16">
           <methods>
             <method name="CreateTennisPlayer" signature="(TenistasAPI.Models.TennisPlayerModel)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -228,7 +229,7 @@
             <line number="34" hits="15" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Services.TourneyService" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Services\TourneyService.cs" line-rate="0.96" branch-rate="0.9166" complexity="15">
+        <class name="TenistasAPI.Services.TourneyService" filename="Services\TourneyService.cs" line-rate="0.96" branch-rate="0.9166" complexity="15">
           <methods>
             <method name="CreateTourney" signature="(System.Int32,TenistasAPI.Models.TourneyModel)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -410,7 +411,7 @@
             <line number="21" hits="10" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Models.TennisPlayerModel" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Models\TennisPlayerModel.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="TenistasAPI.Models.TennisPlayerModel" filename="Models\TennisPlayerModel.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -470,7 +471,7 @@
             <line number="23" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Models.TourneyModel" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Models\TourneyModel.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="TenistasAPI.Models.TourneyModel" filename="Models\TourneyModel.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -500,7 +501,7 @@
             <line number="14" hits="12" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Exceptions.BadRequestOperationException" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Exceptions\BadRequestOperationException.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="TenistasAPI.Exceptions.BadRequestOperationException" filename="Exceptions\BadRequestOperationException.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -516,7 +517,7 @@
             <line number="13" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Exceptions.NotFoundOperationException" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Exceptions\NotFoundOperationException.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="TenistasAPI.Exceptions.NotFoundOperationException" filename="Exceptions\NotFoundOperationException.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -532,7 +533,7 @@
             <line number="13" hits="4" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Data.Repository.LibraryRepository" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Data\Repository\LibraryRepository.cs" line-rate="0.9516" branch-rate="0.6818000000000001" complexity="50">
+        <class name="TenistasAPI.Data.Repository.LibraryRepository" filename="Data\Repository\LibraryRepository.cs" line-rate="0.9516" branch-rate="0.6818000000000001" complexity="50">
           <methods>
             <method name="CreateTennisPlayer" signature="(TenistasAPI.Data.Entities.TennisPlayerEntity)" line-rate="0.75" branch-rate="0.5" complexity="2">
               <lines>
@@ -1016,7 +1017,7 @@
             <line number="37" hits="30" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Data.Entities.TennisPlayerEntity" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Data\Entities\TennisPlayerEntity.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="TenistasAPI.Data.Entities.TennisPlayerEntity" filename="Data\Entities\TennisPlayerEntity.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1076,7 +1077,7 @@
             <line number="18" hits="44" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Data.Entities.TourneyEntity" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Data\Entities\TourneyEntity.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="TenistasAPI.Data.Entities.TourneyEntity" filename="Data\Entities\TourneyEntity.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1106,7 +1107,7 @@
             <line number="13" hits="241" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Controllers.TennisPlayersController" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Controllers\TennisPlayersController.cs" line-rate="0.5" branch-rate="0.5" complexity="10">
+        <class name="TenistasAPI.Controllers.TennisPlayersController" filename="Controllers\TennisPlayersController.cs" line-rate="0.5" branch-rate="0.5" complexity="10">
           <methods>
             <method name="GetTennisPlayers" signature="(System.String)" line-rate="0.4" branch-rate="1" complexity="1">
               <lines>
@@ -1316,7 +1317,7 @@
             <line number="20" hits="9" branch="False" />
           </lines>
         </class>
-        <class name="TenistasAPI.Controllers.TourneyController" filename="Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\Controllers\TourneyController.cs" line-rate="0.5283" branch-rate="0.5" complexity="7">
+        <class name="TenistasAPI.Controllers.TourneyController" filename="Controllers\TourneyController.cs" line-rate="0.5283" branch-rate="0.5" complexity="7">
           <methods>
             <method name="GetTourneys" signature="(System.Int32)" line-rate="0.4" branch-rate="1" complexity="1">
               <lines>
@@ -1464,7 +1465,7 @@
     </package>
     <package name="TenistasUnitTest" line-rate="0" branch-rate="1" complexity="1">
       <classes>
-        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AutoGeneratedProgram" filename="Users\Juan Luis\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>

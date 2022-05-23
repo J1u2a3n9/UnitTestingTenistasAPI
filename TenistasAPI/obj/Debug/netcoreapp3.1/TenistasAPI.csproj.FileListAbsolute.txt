@@ -90,3 +90,26 @@ C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Pro
 C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.dll
 C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.pdb
 C:\Users\ALIENWARE M17 R3\Desktop\Universidad\Gestion de Calidad\Proyectos a Probar\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.genruntimeconfig.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.exe
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.deps.json
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.runtimeconfig.json
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.runtimeconfig.dev.json
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.dll
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\TenistasAPI.pdb
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.csprojAssemblyReference.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.AssemblyInfoInputs.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.AssemblyInfo.cs
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.csproj.CoreCompileInputs.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\staticwebassets\TenistasAPI.StaticWebAssets.Manifest.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\staticwebassets\TenistasAPI.StaticWebAssets.xml
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\TenistasAPI.styles.css
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.RazorTargetAssemblyInfo.cache
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.csproj.CopyComplete
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.dll
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.pdb
+D:\CalidadPracticaIVOficial\TenistasFinal\UnitTestingTenistasAPI\TenistasAPI\obj\Debug\netcoreapp3.1\TenistasAPI.genruntimeconfig.cache
