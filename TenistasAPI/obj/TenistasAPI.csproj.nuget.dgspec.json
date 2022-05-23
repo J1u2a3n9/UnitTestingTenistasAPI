@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj": {}
+    "C:\\Users\\ALIENWARE M17 R3\\Desktop\\Universidad\\Gestion de Calidad\\Proyectos a Probar\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj": {}
   },
   "projects": {
-    "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj": {
+    "C:\\Users\\ALIENWARE M17 R3\\Desktop\\Universidad\\Gestion de Calidad\\Proyectos a Probar\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ALIENWARE M17 R3\\Desktop\\Universidad\\Gestion de Calidad\\Proyectos a Probar\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
         "projectName": "TenistasAPI",
-        "projectPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
-        "packagesPath": "C:\\Users\\Juan Luis\\.nuget\\packages\\",
-        "outputPath": "D:\\CalidadPracticaIV\\TenistasAPI\\TenistasAPI\\obj\\",
+        "projectPath": "C:\\Users\\ALIENWARE M17 R3\\Desktop\\Universidad\\Gestion de Calidad\\Proyectos a Probar\\UnitTestingTenistasAPI\\TenistasAPI\\TenistasAPI.csproj",
+        "packagesPath": "C:\\Users\\ALIENWARE M17 R3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALIENWARE M17 R3\\Desktop\\Universidad\\Gestion de Calidad\\Proyectos a Probar\\UnitTestingTenistasAPI\\TenistasAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Juan Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALIENWARE M17 R3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -48,7 +48,7 @@ namespace TenistasAPI.Services
         public IEnumerable<TennisPlayerModel> GetPlayerWithSameResults(int playerId, string searchBy)
         {
             GetTennisPlayer(playerId);
-            if (!allowedParameters.Contains(searchBy.ToLower()))
+            if (!allowedParameters.Contains(searchBy.ToLower()) )
             {
                 throw new BadRequestOperationException($"the field: {searchBy} is not supported, please use one of these {string.Join(",", allowedParameters)}");
             }
